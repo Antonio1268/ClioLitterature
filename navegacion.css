@@ -1,0 +1,19 @@
+.navegacion{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #2B75CC;
+    box-shadow: 0em 0em 1em 2em #2B75CC;
+}
+
+@media screen and (max-width: 400px) and (min-width: 0){
+    .navegacion{
+        width: 699px;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px){
+    .navegacion{
+        width: 1316px;
+    }
+}

@@ -1,0 +1,17 @@
+.container__libros{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+@media screen and (max-width: 400px) and (min-width: 0){
+    .container__libros{
+        width: 699px;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px){
+    .container__libros{
+        width: 1316px;
+    }
+}

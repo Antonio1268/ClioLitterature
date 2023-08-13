@@ -1,0 +1,25 @@
+.cabecera__container{
+    background: #2B75CC;
+    height: 440px;
+    box-shadow: 0em 0em 1em 2em #2B75CC;
+
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+@media screen and (max-width: 400px) and (min-width: 0){
+    .cabecera__container{
+        width: 699px;
+        height: 509px;
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px){
+    .cabecera__container{
+        width: 1316px;
+        height: 509px;
+        display: flex;
+    }
+}
